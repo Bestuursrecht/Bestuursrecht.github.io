@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diensten Aanbod</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .diensten {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .dienst {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 30%;
+            min-width: 280px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mijn Diensten</h1>
+    </header>
+
+    <nav>
+        <a href="#diensten">Diensten</a>
+        <a href="#over">Over Mij</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="diensten">
+            <h2>Wat Ik Aanbied</h2>
+            <div class="diensten">
+                <div class="dienst">
+                    <h3>Dienst 1</h3>
+                    <p>Beschrijf hier je eerste dienst.</p>
+                </div>
+                <div class="dienst">
+                    <h3>Dienst 2</h3>
+                    <p>Beschrijf hier je tweede dienst.</p>
+                </div>
+                <div class="dienst">
+                    <h3>Dienst 3</h3>
+                    <p>Beschrijf hier je derde dienst.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="over">
+            <h2>Over Mij</h2>
+            <p>Beschrijf jezelf en je achtergrond hier.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: info@mijndiensten.nl</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mijn Diensten</p>
+    </footer>
+
+</body>
+</html>
